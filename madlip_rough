@@ -1,0 +1,31 @@
+#!/usr/bin/python
+
+'''This is a rough draft of my madlib project. I will be condensing over the next couple days'''
+
+verbing1 = raw_input("Tell me a verb ending in 'ing', and click enter. ")
+adjective1 = raw_input("Tell me a adjective, and casually press enter. ")
+verbing2 = raw_input("Tell me another verb ending in 'ing', and slam enter. ")
+pob1 = raw_input("Tell me a part of your body, and tap enter. ")
+adverb1 = raw_input ("Tell me an adverb, and hit enter. ")
+pob2 = raw_input("Tell me another part of your body, and bump enter. ")
+noun1 = raw_input("Tell me a noun... You know the drill ")
+verb1 = raw_input ("Tell me a verb. ")
+animal1 = raw_input("Tell me an animal! ")
+noun2 = raw_input("Tell me another noun. ")
+verb2 = raw_input("Tell me another verb. ")
+adjective2 = raw_input("Tell me another adjective. ")
+color1 = raw_input("Tell me your favorite color. ")
+
+print '***' * 20
+
+print "Most doctors agree that bicycle " 
+print verbing1 + " is a/an " + adjective1 + " form "
+print " of exercise. " + verbing2 + " a bicycle enables "
+print " you to develop your " + pob1 + " muscles "
+print " as well as " + adverb1 + " increase the rate "
+print " of your " + pob2 + " beat. More " + noun1
+print " around the world " + verb1 + " bicycles than "
+print " drive " + animal1 + ". No matter what kind of "
+print noun2 + " you " + verb2 + ", always be "
+print " sure to wear a/an " + adjective2 + " helmet. Make "
+print " sure to have " + color1 + " reflectors too! "
