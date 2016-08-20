@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+n = input("Please enter a number: ")
+while (n != 'q'):
+    if n % 2 == 0:
+        print '%s is an even number.' % n
+    else:
+        print '%s is an odd number.' % n
+    n = input("Please enter a number: ")
+
